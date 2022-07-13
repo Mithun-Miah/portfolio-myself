@@ -1,0 +1,51 @@
+/* header short intro responsive css start */
+@media only screen and (max-width: 767px) {
+    .myImage {
+      width: 40%;
+      margin-top: 40px;
+    }
+    #h-des-right{
+      margin-top: 0px;
+      padding: 0px;
+      text-align: center;
+    }
+    #h-des-right p{
+      padding: 20px;
+      text-align: justify;
+  }
+}
+/* header short intro responsive css end */
+/* about me section responsive css start */
+@media only screen and (max-width: 767px) {
+  #about-left h3  {
+    text-align: center;
+  }
+  #personal-info-table{
+    width: 100%;
+    margin: 0px auto;
+  }
+  #about-right{
+    text-align: center;
+    width: 100%;
+  }
+  .work_progress_div{
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #about-right{
+    width: 100%;
+  }
+  .work_progress_div{
+    width: 45%;
+  }
+}
+/* about me section responsive css end */
+
+/* client reviews section responsive css start */
+@media (min-width: 350px) and (max-width: 767px) {
+  .client-reviews-card{
+    width: fit-content;
+  }
+}
+/* client reviews section responsive css end */

@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+	<!--fav icon start-->
+    <link rel="icon" href="assets/fav_icon.jpg">
+	<!--bootstrap css start -->
+	<link rel="stylesheet" href="css/bs_css/bootstrap.min.css">
+  <!--owl carousel css start -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+	<!--font awesome cdn link start -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+  <!-- AOS Animation CDN Link -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- css animate plugins cdn link start -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- css animate plugins cdn link end -->
+  <!-- typed js plugins cdn link start -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js"></script>
+  <!-- typed js plugins cdn link end -->
+
+    <title>Mithun | Portfolio</title>
+	<!--custom css start -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- navbar start -->
+    <!-- <div class="container-fluid fixed-top"></div> -->
+	<section id="home">
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="logo_img" src="assets/logo.jpg" width="35" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+            </li>
+            <li class="nav-item dropdown" id="dropdown_items">
+              <a class="nav-link dropdown-toggle" href="#aboutMe" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ABOUT ME
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#skills">SKILLS</a></li>
+                <li><a class="dropdown-item" href="#education">EDUCATION</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#clientReviews">CLIENT REVIEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+    <!-- navbar end -->
+    <!-- header short intro start -->
+    <div class="container-fluid" id="short-intro">
+      <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center p-5" id="h-img-left">
+            <img class="img-fluid myImage" src="assets/img/header_sec/me.jpg" alt="picture">
+          </div>
+
+          <div class="col-lg-8 col-md-6 col-sm-12 pb-5" id="h-des-right">
+            <!-- class nameTitle text coming from jquery.js -->
+            <h1 class="nameTitle"></h1>
+            <!-- class positionTitle text coming from jquery.js -->
+            <h2 class="positionTitle"></h2>
+            <p>Since beginning my journey as a freelance designer nearly 1.5 year age. I've 
+
+              done remote work for startups, and collaborated with talented people to create 
+              
+              digital products for both business and consumer use. I'm quietly confident, 
+              
+              naturally curious, and perpetually working on improving my chops one design 
+              
+              problem at a time.</p>
+              <div class="readMoreAboutMe">
+                <a href="https://www.linkedin.com/in/mithun-miah-448452106" target="_blank" class="animate__animated animate__pulse animate__infinite">READ MORE ABOUT ME <i class="fa-solid fa-location-arrow"></i></a>
+              </div>
+            <!-- <button class="animate__animated animate__pulse animate__infinite">READ MORE ABOUT ME <i class="fa-solid fa-location-arrow"></i></button> -->
+          </div>
+          
+      </div>
+
+    </div>
+    <!-- header short intro end -->
+
+    <!-- about me section start -->
+	<section id="aboutMe">
+    <div class="container-fluid" id="about-me">
+      <h1 class="text-center pt-3">ABOUT ME</h1>
+      <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12 p-5" id="about-left">
+            <h3>PERSONAL INFOS</h3>
+            <table class="d-flex" id="personal-info-table">
+              <thead class="me-5">
+                <tr>
+                  <th>First Name : Mithun</th>
+                </tr>
+                <tr>
+                  <th>Last Name : Miah</th>
+                </tr>
+                <tr>
+                  <th>Age : 28 Years</th>
+                </tr>
+                <tr>
+                  <th>Nationality : Bangladeshi</th>
+                </tr>
+                <tr>
+                  <th>Freelance : Available</th>
+                </tr>
+              </thead>
+              <thead>
+                <tr>
+                  <th>Address : Dhaka, Bangladesh</th>
+                </tr>
+                <tr>
+                  <th>Phone : +880145879632</th>
+                </tr>
+                <tr>
+                  <th>Email : mithunmiah08@gmail.com</th>
+                </tr>
+                <tr>
+                  <th>LinkedIn : mithun-miah-448452106</th>
+                </tr>
+                <tr>
+                  <th>Language : English/Bangla</th>
+                </tr>
+              </thead>
+            </table>
+            <a href="resume/mithun_miah_resume.pdf" target="_blank" id="cv-download-btn" download="Mithun-Miah-Resume" class="animate__animated animate__flash animate__slow animate__delay-1.5s">DOWNLOAD CV <i class="fa-solid fa-download"></i></a>
+            <!-- <button id="cv-download-btn"  src="resume/web-developer-designer on mithun miah.pdf" class="animate__animated animate__flash animate__slow animate__delay-1.5s">DOWNLOAD CV <i class="fa-solid fa-download"></i></button> -->
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12 p-5" id="about-right">
+            <h3>WORKING PROGRESS</h3>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 text-center work_progress_div">
+                <span id="counter1"></span>
+                <h6>YEARS OF EXPERIENCE</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 text-center work_progress_div">
+                <span id="counter2"></span>
+                <h6>COMPLETED PROJECTS</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 text-center work_progress_div">
+                <span id="counter3"></span>
+                <h6>CLIENT SATISFACTION</h6>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 text-center work_progress_div">
+                <span id="counter4"></span>
+                <h6>AWARDS WON</h6>
+              </div>
+            </div>
+            
+          </div>
+      </div>
+
+    </div>
+	</section>
+    <!-- about me section end -->
+
+    <!-- my skills section start -->
+  <div data-aos="flip-up">
+    <section id="skills">
+      <div class="container-fluid" id="my-skills">
+        <h1 class="text-center pt-3">MY SKILLS</h1>
+        <H4 class="text-center animate__animated animate__backInLeft animate__delay-2s"><u>FRONT-END DEVELOPMENT</u></H4>
+        <div class="row">
+          <br>
+          <div class="col-lg-6 col-md-6 col-sm-12 p-4" id="my-skills-left">
+            <!-- custom progress bar code start here -->
+            <div id="skills-section">
+
+              <p class="fw-bolder text-light p-0 m-0">HTML</p>
+              <div class="container2">
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="80">
+                          <span>80%</span>
+                      </div>
+                  </div>
+
+                  <p class="fw-bolder text-light p-0 m-0 mt-4">CSS</p>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="70">
+                        <span>70%</span>
+                    </div>
+                </div>
+
+                <p class="fw-bolder text-light p-0 m-0 mt-4">JAVASCRIPT</p>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="70">
+                        <span>70%</span>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- custom progress bar code end here -->
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 p-4" id="my-skills-right">
+            <!-- custom progress bar code start here -->
+            <div id="skills-section">
+
+              <p class="fw-bolder text-light p-0 m-0">BOOTSTRAP</p>
+              <div class="container2">
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="70">
+                          <span>70%</span>
+                      </div>
+                  </div>
+
+                  <p class="fw-bolder text-light p-0 m-0 mt-4">JQUERY</p>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="60">
+                        <span>60%</span>
+                    </div>
+                </div>
+
+                <p class="fw-bolder text-light p-0 m-0 mt-4">WORDPRESS</p>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="75">
+                        <span>75%</span>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- custom progress bar code end here -->
+
+          </div>
+        </div>
+
+        <hr class="text-light">
+
+        <div class="row">
+          <H4 class="text-center"><marquee width="50%" behavior="" direction=""><u>BACK-END DEVELOPMENT</u></marquee></H4>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 p-4" id="my-skills-be-left">
+            <!-- custom progress bar code start here -->
+            <div id="skills-section">
+
+              <p class="fw-bolder text-light p-0 m-0">PHP</p>
+              <div class="container2">
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="65">
+                          <span>65%</span>
+                      </div>
+                  </div>
+
+                  <p class="fw-bolder text-light p-0 m-0 mt-4">MYSQL</p>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="50">
+                        <span>50%</span>
+                    </div>
+                </div>
+
+              </div>
+            
+            </div>
+            <!-- custom progress bar code end here -->
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 p-4" id="my-skills-be-right">
+            <!-- custom progress bar code start here -->
+            <div id="skills-section">
+
+              <p class="fw-bolder text-light p-0 m-0">AJAX</p>
+              <div class="container2">
+                  <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="40">
+                          <span>40%</span>
+                      </div>
+                  </div>
+
+                  <p class="fw-bolder text-light p-0 m-0 mt-4">LARAVEL</p>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" data-progress="30">
+                        <span>30%</span>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+            <!-- custom progress bar code end here -->
+
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  </div>
+    <!-- my skills section end -->
+
+    <!-- experience & education section start -->
+  <div data-aos="zoom-in">
+    <section id="education">
+      <div class="container-fluid" id="my-education">
+        <h1 class="text-center pt-3">EXPERIENCE & EDUCATION</h1>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 p-4">
+            <h6 class="text-warning"><i class="fa-solid fa-bag-shopping"></i> WEB DEVELOPER FROM CODERSTRUST</h6>
+            <P class="text-light">(2021-present) has been working successfully as a web developer from coderstrust.</P>
+            <br>
+            <h6 class="text-warning"><i class="fa-solid fa-palette"></i> WEB DESIGNER FROM CODERSTRUST</h6>
+            <P class="text-light">(2021-present) has been working successfully as a web designer from coderstrust.</P>
+            <br>
+            <h6 class="text-warning"><i class="fa-solid fa-database"></i> DATA ENTRY OPERATOR FROM DDCL</h6>
+            <P class="text-light">(2018-present) has been working successfully as a data entry operator from ddcl.</P>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 p-4">
+            <h6 class="text-warning"><i class="fa-solid fa-layer-group"></i> BACHELOR DEGREE - BSS</h6>
+            <P class="text-light">I have done my graduation in 2015 from Dhaka University</P>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+    <!-- experience & education section end -->
+
+    <!-- my services section start -->
+  <div data-aos="zoom-in-up">
+    <section id="services">
+      <div class="container-fluid" id="my-service">
+        <h1 class="text-center pt-3">MY SERVICES</h1>
+        <div class="row p-3">
+
+          <div class="col-md-4 mb-3">
+              <div class="card shadow p-2 card-custom">
+                <i class="fa-solid fa-display text-center pt-2 card-icon"></i>
+                  <div class="card-body">
+                      <h5 class="card-title text-center text-light">WEB DESIGN</h5>
+                      <p class="card-text text-center text-light">I've done some Landing Page projects. Here You can see by clicking below the button...</p>
+                  </div>
+                  <button id="btn-quote"><a href="https://mithun-miah.github.io/Deploy-Live--Novena-Project--First-Project-2022/" target="_blank">GET A QUOTE</a></button>
+              </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card shadow p-2 card-custom">
+              <i class="fa-brands fa-html5 text-center pt-2 card-icon"></i>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-light">PSD TO HTML</h5>
+                    <p class="card-text text-center text-light">I've done some PSD TO HTML projects. Here You can see by clicking below the button...</p>
+                </div>
+                <button id="btn-quote"><a href="https://mithundev.xyz/food4you/" target="_blank">GET A QUOTE</a></button>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card shadow p-2 card-custom">
+              <i class="fa-brands fa-wordpress-simple text-center pt-2 card-icon"></i>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-light">WORDPRESS</h5>
+                    <p class="card-text text-center text-light">My Wordpress projects using <b>Elementor Page Builder</b>. Here You can see by clicking below the button...</p>
+                </div>
+                <button id="btn-quote"><a href="https://ecommerce.mithundev.xyz/" target="_blank">GET A QUOTE</a></button>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card shadow p-2 card-custom">
+              <i class="fa-solid fa-basket-shopping text-center pt-2 card-icon"></i>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-light">ECOMMERCE</h5>
+                    <p class="card-text text-center text-light">My Ecommerce Website Sample. Here You can see by clicking below the button...</p>
+                </div>
+                <button id="btn-quote"><a href="https://ecommerce.mithundev.xyz/" target="_blank">GET A QUOTE</a></button>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card shadow p-2 card-custom">
+              <i class="fa-solid fa-business-time text-center pt-2 card-icon"></i>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-light">BUSINESS</h5>
+                    <p class="card-text text-center text-light">My Professional Business Website Sample. Here You can see by clicking below the button...</p>
+                </div>
+                <button id="btn-quote"><a href="https://ecommerce.mithundev.xyz/" target="_blank">GET A QUOTE</a></button>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card shadow p-2 card-custom">
+              <i class="fa-solid fa-database text-center pt-2 card-icon"></i>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-light">DATA ENTRY</h5>
+                    <p class="card-text text-center text-light">I've Experienced on Online and Offline Any Type of Data Entry Work. Here You can see by clicking below the button...</p>
+                </div>
+                <button id="btn-quote"><a href="https://dataentry.mithundev.xyz/loginPage.php" target="_blank">GET A QUOTE</a></button>
+            </div>
+          </div>
+      </div>
+    </div>
+    </section>
+  </div>
+    <!-- my services section end -->
+
+    <!-- client reviews section start -->
+  <div data-aos="zoom-in-down">
+    <section id="clientReviews">
+      <div class="container-fluid" id="client-reviews">
+        <h1 class="text-center pt-3">CLIENT REVIEWS</h1>
+        <p class="text-center fs-4 text-light">People I've worked with have said some nice things...</p>
+        <div class="row p-3 ms-auto justify-content-center">
+
+          <div class="carousel owl-carousel">
+            <div class="card card-1 text-center text-light client-reviews-card">
+              <div class="card-img rounded-2">
+                <img src="assets/img/clint_sec/1st.png" class="m-auto" alt="image">
+                <h6>John Doe</h6>
+                <small>CEO</small>
+                <p class="star-symbol">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              </div>
+              <div class="card-content">
+                <p><span class="text-warning fs-5 fw-bold">❝</span> Mithun was a real pleasure to work with and we look forward to working with him again. He's definitely the kind of designer you can trust with a project from start to finish. <span class="text-warning fs-5 fw-bold">❞</span></p>
+              </div>
+           </div>
+  
+            <div class="card card-2 text-center text-light client-reviews-card">
+              <div class="card-img rounded-2">
+                <img src="assets/img/clint_sec/2nd.png" class="m-auto" alt="image">
+                <h6>Mark Jukarburg</h6>
+                <small>Managing Director</small>
+                <p class="star-symbol">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              </div>
+              <div class="card-content pb-3">
+                <p><span class="text-warning fs-5 fw-bold">❝</span> Mithun's a clear communicator with the tenacity and confidence to really dig in to tricky design scenorios and the collaborative friction that's needed to produce excellent work. <span class="text-warning fs-5 fw-bold">❞</span></p>
+              </div>
+           </div>
+  
+            <div class="card card-3 text-center text-light client-reviews-card">
+              <div class="card-img rounded-2">
+                <img src="assets/img/clint_sec/3rd.png" class="m-auto" alt="image">
+                <h6>Beauty Queen</h6>
+                <small>Chairman</small>
+                <p class="star-symbol">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              </div>
+              <div class="card-content pb-3">
+                <p><span class="text-warning fs-5 fw-bold">❝</span> Mithun was a real pleasure to work with and we look forward to working with him again. He's definitely the kind of designer you can trust with a project from start to finish. <span class="text-warning fs-5 fw-bold">❞</span></p>
+              </div>
+           </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+    <!-- client reviews section end -->
+
+    <!-- my blog section start -->
+  <div data-aos="zoom-in-right">
+    <section id="blog">
+      <div class="container-fluid" id="my-blog">
+        <h1 class="text-center pt-3">MY BLOG</h1>
+        <div class="row p-3">
+
+          <div class="col-md-4 mb-3">
+            <div class="card shadow p-2 blog-card">
+              <img src="assets/img/blog_sec/01.jpg" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">WEB DESIGN</h5>
+                    <p class="card-text text-light">Good design is innovative,” stated the highly influential industrial designer Dieter Rams in his list of ten principles....</p>
+                </div>
+                <button id="btn-blog"><a href="web-design.html" target="_blank">READ MORE <i class="fa-solid fa-caret-right"></i></a></button>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card shadow p-2 blog-card">
+            <img src="assets/img/blog_sec/02.jpg" alt="image">
+              <div class="card-body">
+                  <h5 class="card-title text-warning">FRONT-END DEVELOPMENT</h5>
+                  <p class="card-text text-light">I really very exited to build web site fully users interactive....</p>
+              </div>
+              <button id="btn-blog"><a href="front-end-dev.html" target="_blank">READ MORE <i class="fa-solid fa-caret-right"></i></a></button>
+          </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="card shadow p-2 blog-card">
+          <img src="assets/img/blog_sec/03.jpg" alt="image">
+            <div class="card-body">
+                <h5 class="card-title text-warning">BACK-END DEVELOPMENT</h5>
+                <p class="card-text text-light">I've done already some dynamic projects with php and mysql database and using with ajax. And I can make web pages with php fremework Laravel....</p>
+            </div>
+            <button id="btn-blog"><a href="back-end-dev.html" target="_blank">READ MORE <i class="fa-solid fa-caret-right"></i></a></button>
+        </div>
+    </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+    <!-- my blog section end -->
+
+    <!-- portfolio section start -->
+  <div data-aos="fade-down">
+    <section id="portfolio">
+      <div class="container-fluid" id="myPortfolio">
+        <h1 class="text-center pt-3">MY PORTFOLIO</h1>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="card mb-3 portTabCard">
+           
+              <ul class="nav nav-tabs m-auto" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="all-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">ALL</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="webDesign-tab" data-bs-toggle="tab" href="#webDesign" role="tab" aria-controls="webDesign" aria-selected="false">WEB DESIGN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="ecommerce-tab" data-bs-toggle="tab" href="#ecommerce" role="tab" aria-controls="ecommerce" aria-selected="false">ECOMMERCE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="landingPage-tab" data-bs-toggle="tab" href="#landingPage" role="tab" aria-controls="landingPage" aria-selected="false">LANDING PAGE</a>
+                </li>
+              </ul>
+
+
+              <div class="tab-content" id="myTabContent">
+
+                <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 tab-pane fade show active" id="all" role="tabpanel">
+                      <a href="https://mithun-miah.github.io/Deploy-Live--Novena-Project--First-Project-2022/" target="_blank">
+                        <div class="card shadow cardPortfolio1">
+                          <img src="assets/img/portfolio_sec/web_design.jpg" alt="Image" class="portCardImage">
+                          <div class="overlay">
+                            <div class="text">
+                              Web Design
+                            </div>
+                          </div>
+                      </div>
+                      </a> 
+                    </div>
+    
+                    <div class="col-lg-4 col-md-4 col-sm-12 tab-pane fade show active" id="all" role="tabpanel">
+                      <a href="https://ecommerce.mithundev.xyz/" target="_blank">
+                        <div class="card shadow cardPortfolio1">
+                          <img src="assets/img/portfolio_sec/ecommerce.jpg" alt="Image" class="portCardImage">
+                          <div class="overlay">
+                            <div class="text">
+                              Ecommerce
+                            </div>
+                          </div>
+                      </div>
+                      </a> 
+                    </div>
+    
+                    <div class="col-lg-4 col-md-4 col-sm-12 tab-pane fade show active" id="all" role="tabpanel">
+                      <a href="https://ecommerce.mithundev.xyz/" target="_blank">
+                        <div class="card shadow cardPortfolio1">
+                          <img src="assets/img/portfolio_sec/business.jpg" alt="Image" class="portCardImage">
+                          <div class="overlay">
+                            <div class="text">
+                              Business
+                            </div>
+                          </div>
+                      </div>
+                      </a> 
+                    </div>
+    
+                    <div class="col-lg-4 col-md-4 col-sm-12 tab-pane fade show active" id="all" role="tabpanel">
+                      <a href="https://www.khaasfood.com/" target="_blank">
+                        <div class="card shadow cardPortfolio1">
+                          <img src="assets/img/portfolio_sec/grocery.jpg" alt="Image" class="portCardImage">
+                          <div class="overlay">
+                            <div class="text">
+                              Grocery Website
+                            </div>
+                          </div>
+                      </div>
+                      </a> 
+                    </div>
+    
+                    <div class="col-lg-4 col-md-4 col-sm-12 tab-pane fade show active" id="all" role="tabpanel">
+                      <a href="https://mithundev.xyz/" target="_blank">
+                        <div class="card shadow cardPortfolio1">
+                          <img src="assets/img/portfolio_sec/personal_webpage.jpg" alt="Image" class="portCardImage">
+                          <div class="overlay">
+                            <div class="text">
+                              Personal Landing Page
+                            </div>
+                          </div>
+                      </div>
+                      </a> 
+                    </div>
+    
+                    <div class="col-lg-4 col-md-4 col-sm-12 tab-pane fade show active" id="all" role="tabpanel">
+                      <a href="https://mithun-miah.github.io/Regna_Project-Live-Deploy-2022/" target="_blank">
+                        <div class="card shadow cardPortfolio1">
+                          <img src="assets/img/portfolio_sec/smartphones.jpg" alt="Image" class="portCardImage">
+                          <div class="overlay">
+                            <div class="text">
+                              Electronics Site
+                            </div>
+                          </div>
+                      </div>
+                      </a> 
+                    </div>
+                  </div>
+  
+                </div>
+
+                <div class="tab-pane fade" id="webDesign" role="tabpanel" aria-labelledby="webDesign-tab">
+                  <div class="row">
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 tab-pane fade show active" id="all" role="tabpanel">
+                      <a href="https://mithundev.xyz/" target="_blank">
+                        <div class="card shadow cardPortfolio1">
+                          <img src="assets/img/portfolio_sec/web_design.jpg" alt="Image" class="portCardImage">
+                          <div class="overlay">
+                            <div class="text">
+                              Web Design
+                            </div>
+                          </div>
+                      </div>
+                      </a> 
+                    </div>
+
+                  </div>
+              </div>
+  
+              <div class="tab-pane fade" id="ecommerce" role="tabpanel" aria-labelledby="ecommerce-tab">
+                  <div class="row">
+    
+                    <div class="col-lg-4 col-md-4 col-sm-12 tab-pane fade show active" id="all" role="tabpanel">
+                      <a href="https://ecommerce.mithundev.xyz/" target="_blank">
+                        <div class="card shadow cardPortfolio1">
+                          <img src="assets/img/portfolio_sec/ecommerce.jpg" alt="Image" class="portCardImage">
+                          <div class="overlay">
+                            <div class="text">
+                              Ecommerce
+                            </div>
+                          </div>
+                      </div>
+                      </a> 
+                    </div>
+    
+                  </div>
+              </div>
+  
+              <div class="tab-pane fade" id="landingPage" role="tabpanel" aria-labelledby="landingPage-tab">
+                <div class="row">
+                  
+                  <div class="col-lg-4 col-md-4 col-sm-12 tab-pane fade show active" id="all" role="tabpanel">
+                    <a href="https://mithundev.xyz/" target="_blank">
+                      <div class="card shadow cardPortfolio1">
+                        <img src="assets/img/portfolio_sec/personal_webpage.jpg" alt="Image" class="portCardImage">
+                        <div class="overlay">
+                          <div class="text">
+                            Personal Landing Page
+                          </div>
+                        </div>
+                    </div>
+                    </a> 
+                  </div>
+
+              </div>
+              </div>
+
+           </div>
+          
+          </div>
+        </div>
+     </div>
+     </div>
+    </section>
+  </div>
+    <!-- portfolio section end -->
+
+    <!-- contact section start -->
+  <div data-aos="fade-up"
+     data-aos-duration="1000">
+    <section id="contact">
+      <div class="container-fluid" id="myContact">
+        <h1 class="text-center pt-3">GET IN TOUCH</h1>
+      <div class="row p-3">
+        <div class="col-lg-5 col-md-5 col-sm-12 contactLeft">
+          <h5 class="text-light">DON'T BE SHY</h5>
+          <p class="text-light">You reach me via email or find me on social media network.</p>
+          <p class="text-light">I would love to hear from you!</p>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <i class="fa-solid fa-envelope text-warning"></i> <strong class="text-light">MAIL ME</strong>
+              <span class="text-light">mithunmiah08@gmail.com</span>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <i class="fa-solid fa-mobile-screen-button text-warning"></i> <strong class="text-light">MAIL ME</strong>
+              <span class="text-light">+8801475896321</span>
+            </div>
+            <div class="socialMedia">
+              <a href="https://www.facebook.com/people/Ahmad-Nesar/100078387711213" target="_blank"><i class="fa-brands fa-facebook faceSi"></i></a>
+              <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter twitSi"></i></a>
+              <a href="https://www.youtube.com/c/BindassFunBD" target="_blank"><i class="fa-brands fa-youtube ytSi"></i></a>
+              <a href="https://www.linkedin.com/in/mithun-miah-448452106" target="_blank"><i class="fa-brands fa-linkedin linkSi"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7 col-md-7 col-sm-12 contactRight">
+          <form action="https://formsubmit.co/your@email.com" method="POST">
+            <input type="hidden" name="_subject" value="Web Portfolio Contact Form Mail!">
+            <div class="mb-2">
+              <label for="fullName" class="form-label text-light">Full Name</label>
+              <input type="text" name="fullName" class="form-control" id="fullName" aria-describedby="textHelp">
+            </div>
+
+            <div class="mb-2">
+              <label for="exampleInputEmail1" class="form-label text-light">Email Address</label>
+              <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-2">
+              <label for="text" class="form-label text-light">Subject</label>
+              <input type="text" name="subject" class="form-control" id="subject" aria-describedby="textHelp">
+            </div>
+
+            <div class="mb-2">
+              <label for="messageType" class="form-label text-light">Message</label>
+              <textarea name="message" cols="18" rows="6" class="form-control" id="messageType"></textarea>
+            </div>
+            
+            <button type="submit" name="submit" class="fw-bold" id="formSubmitBtn">Submit</button>
+          </form>
+        </div>
+      </div>
+      </div>
+    </section>
+  </div>
+    <!-- contact section end -->
+
+    <!-- footer section start -->
+    <footer>
+      <div class="container-fluid" id="myFooter">
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center text-light p-3">
+          Copyright &copy; 2022 | Powered By <strong><a href="https://www.linkedin.com/in/mithun-miah-448452106" target="_blank">Developer Mithun Miah</a></strong>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script> -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="js/bs_js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>    
+	  <script src="js/index.js"></script>
+	  <script src="js/jquery.js"></script>
+    <script src="js/form-validate.js"></script>
+
+    <!-- AOS Animation Script link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

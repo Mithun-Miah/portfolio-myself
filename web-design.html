@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+	<!--fav icon start-->
+    <link rel="icon" href="assets/fav_icon.jpg">
+	<!--bootstrap css start -->
+	<link rel="stylesheet" href="css/bs_css/bootstrap.min.css">
+	<!--font awesome cdn link start -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+  <title>Web Design | Blog</title>
+	<!--custom css start -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <style>
+      #formSubmitBtn{
+        width: 100%;
+        transition: 0.2s ease-in;
+      }
+      #formSubmitBtn:hover{
+        background-color: sienna;
+      }
+    </style>
+</head>
+<body>
+    <!-- navbar start -->
+    <!-- <div class="container-fluid fixed-top"></div> -->
+	<section id="home">
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="web-design.html"><img class="logo_img" src="assets/logo.jpg" width="35" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item dropdown" id="dropdown_items">
+              <a class="nav-link dropdown-toggle" href="#aboutMe" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  BLOGS
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="web-design.html">WEB DESIGN</a></li>
+                <li><a class="dropdown-item" href="front-end-dev.html">FRONT-END DEVELOPMENT</a></li>
+                <li><a class="dropdown-item" href="back-end-dev.html">BACK-END DEVELOPMENT</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+    <!-- navbar end -->
+
+    <!-- my blog section start -->
+  <div data-aos="zoom-in-right">
+    <section id="blog">
+      <div class="container-fluid" id="my-blog">
+        <h1 class="text-center pt-3">MY BLOG</h1>
+        <div class="row p-3">
+
+            <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                <div class="card shadow p-2 blog-card">
+                  <img src="assets/img/blog_sec/01.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning text-center">WEB DESIGN</h5>
+                        <p class="card-text text-light text-center">Good design is innovative,” stated the highly influential industrial designer Dieter Rams in his list of ten principles.</p>
+                    </div>
+                    <!-- <button id="btn-blog"><a href="web-design.html">READ MORE <i class="fa-solid fa-caret-right"></i></a></button> -->
+                </div>
+                <article class="mt-5 text-light">
+                    <h3><u>What is Responsive Web Design?</u></h3>
+                    <p>According to Wikipedia, responsive web design is an approach that ensures all the pages of the website look, work and feel perfectly on any device. Whether it is a tiny old cell phone with a screen width of 320px, a modern phablet with 7 inches screen, a big iPad, or a TV with a massive diagonal line, all the main aspects such as content, design, and especially functionality should perform consistently to provide users with an excellent user experience.</p>
+                    <p>In technical terms, responsive web design implies a set of instructions that help web pages change their layout and appearance to meet different screen widths and resolutions.</p>
+                    <p>The concept of a responsive website appeared due to non-effective and ill-suited ways of handling screen sizes. Originally, pages were built to target a particular device. This approach implied creating a range of designs for each responsive tier resulting in different versions of the same page. However, with the mobile web becoming a reality and more and more devices with non-standard resolutions appeared, this approach has quickly become irrelevant since it could not handle this variety efficiently.</p>
+                    <p>In the early 2010s, largely thanks to a gifted Ethan Marcotte, developers started to switch from popular adaptive design (an approach that implied creating several versions of one design) to responsive design (an approach that suggested only one yet flexible version of a website that stretched or shrunk to fit the screen). Although that technique was pretty new and untested, nevertheless its benefits were hard to ignore. Even now, those advantages prove to everyone that a responsive website is the only way out. Let us consider them.</p>
+                    <button id="btn-blog"><a href="https://designmodo.com/responsive-design-examples/" target="_blank">READ MORE <i class="fa-solid fa-caret-right"></i></a></button>
+                </article>
+
+                <div class="others-article-link mt-4">
+                    <h5 class="text-warning"><abbr title="OTHERS ARTICLE LINK BELOW">OTHERS ARTICLE LINK BELOW</abbr></h5>
+                    <a href="front-end-dev.html" target="_blank" class="text-light d-block">FRONT-END DEVELOPMENT BLOG</a>
+                    <a href="back-end-dev.html" target="_blank" class="text-light">BACK-END DEVELOPMENT BLOG</a>
+                </div>
+
+              </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+    <!-- my blog section end -->
+
+<!-- contact section start -->
+    <div data-aos="fade-up" data-aos-duration="1000">
+      <section id="contact">
+          <div class="container-fluid" id="myContact">
+            <h1 class="text-center pt-3">GET IN TOUCH</h1>
+    
+              <div class="row p-3">
+                <div class="col-lg-2 col-md-2"></div>
+                
+                <div class="col-lg-8 col-md-8 col-sm-12 contactRight">
+                  <form action="https://formsubmit.co/your@email.com" method="POST">
+                    <input type="hidden" name="_subject" value="Web Portfolio Contact Form Mail!">
+                    <div class="mb-2">
+                      <label for="fullName" class="form-label text-light">Full Name</label>
+                      <input type="text" name="fullName" class="form-control" id="fullName" aria-describedby="textHelp">
+                    </div>
+        
+                    <div class="mb-2">
+                      <label for="exampleInputEmail1" class="form-label text-light">Email Address</label>
+                      <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                    </div>
+        
+                    <div class="mb-2">
+                      <label for="text" class="form-label text-light">Subject</label>
+                      <input type="text" name="subject" class="form-control" id="subject" aria-describedby="textHelp">
+                    </div>
+        
+                    <div class="mb-2">
+                      <label for="messageType" class="form-label text-light">Message</label>
+                      <textarea name="message" id="message" cols="18" rows="6" class="form-control"></textarea>
+                    </div>
+                    
+                    <button type="submit" name="submit" class="fw-bold" id="formSubmitBtn" onclick="openNewWindow()" >Submit <i class="fa-solid fa-paper-plane"></i></button>
+                  </form>
+                </div>
+    
+                <div class="col-lg-2 col-md-2"></div>
+              </div>
+          </div>
+      </section>
+    </div>
+<!-- contact section end -->
+
+
+    <!-- footer section start -->
+    <footer>
+      <div class="container-fluid" id="myFooter">
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center text-light p-3">
+          Copyright &copy; 2022 | Powered By <strong><a href="https://www.linkedin.com/in/mithun-miah-448452106" target="_blank">Developer Mithun Miah</a></strong>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="js/bs_js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/form-validate.js"></script>
+
+</body>
+</html>

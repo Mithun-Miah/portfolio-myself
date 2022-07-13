@@ -1,0 +1,544 @@
+*{
+    box-sizing: border-box;
+}
+/* navbar css start */
+#navbar{
+    background-color: rgb(68, 67, 67);
+    border-bottom: 1px solid orange;
+}
+#navbarNavDropdown a{
+    color: #fff;
+    transition: 0.2s ease-in;
+}
+#navbarNavDropdown a:hover{
+    background-color: orange;
+    color: #000;
+}
+.dropdown-menu{
+    background-color: rgb(68, 67, 67);
+}
+.dropdown-item.active{
+    color:#fff;
+    background-color:orange;
+}
+.dropdown-item:hover{
+    color:#fff;
+    background-color:orange;
+}
+.logo_img{
+    border-radius: 50%;
+    border-style: dotted;
+    border-color: orange;
+}
+/* navbar css end */
+
+/* header short intro css start */
+#short-intro{
+    background-color: #616566;
+    height: auto;
+    padding-bottom: 10px;
+}
+#h-img-left{
+    text-align: center;
+}
+.myImage{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    border-radius: 30px;
+    border: 7px solid #616566;
+    box-shadow: 1px 0px 8px 3px orange;
+}
+#h-des-right{
+    margin-top: 112px;
+    padding-right: 40px;
+}
+#h-des-right h1{
+    font-weight: 900;
+    color: orange;
+    text-shadow: 1px 2px 3px black;
+}
+#h-des-right h2{
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+}
+#h-des-right p{
+    color: white;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.readMoreAboutMe{
+    margin-top: 35px;
+}
+#h-des-right a{
+    color: white;
+    background-color: #616566;
+    width: 250px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 1px 0px 8px 3px orange;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+#h-des-right a:hover{
+    color: orange;
+    background-color: #7e8181;
+}
+.fa-location-arrow{
+    font-size: 17px;
+}
+/* header short intro css end */
+
+/* about me section css start */
+#about-me{
+    background-color: #616566;
+    height: auto;
+    border-top: 1px solid orange;
+}
+#about-me h1{
+    font-weight: 900;
+    color: orange;
+    text-shadow: 1px 2px 3px black;
+}
+#about-left h3{
+    color: orange;
+    font-weight: 700;
+}
+#personal-info-table{
+    margin-bottom: 20px;
+}
+#personal-info-table th{
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+#cv-download-btn{
+    color: white;
+    background-color: #616566;
+    width: 200px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 1px 0px 8px 3px orange;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+}
+#cv-download-btn:hover{
+    color: orange;
+    background-color: #7e8181;
+}
+#about-right h3{
+    color: orange;
+    font-weight: 700;
+}
+.work_progress_div{
+    border: 1px solid #fff;
+    width: 200px;
+    margin: 3px;
+}
+.work_progress_div span{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: orange;
+}
+.work_progress_div h6{
+    color: #fff;
+}
+/* about me section css end */
+
+/* my skills section css start */
+#my-skills{
+    background-color: #616566;
+    height: auto;
+    border-top: 1px solid #87898a;
+}
+#my-skills h1{
+    font-weight: 900;
+    color: orange;
+    text-shadow: 1px 2px 3px black;
+}
+#my-skills h4{
+    font-weight: 800;
+    color: orange;
+    text-shadow: 1px 2px 3px black;
+}
+.progress{
+    background-color: #616566;
+    border: 1px solid orange;
+    height: 20px;
+}
+/* progress bar code start here */
+.container2{
+    width: 100%;
+    margin: 0px auto;
+}
+.progress{
+    width: 90%;
+    height: 20px;
+    background-color: grey;
+    border-radius: 10px;
+}
+.progress .progress-bar{
+    width: 0%;
+    height: 100%;
+    opacity: 0;
+    background-color: orange;
+    border-radius: 10px;
+    position: relative;
+    transition: all .5s;
+}
+.progress-bar span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: gray;
+    font-weight: 500;
+}
+.container2 p{
+    margin-top: 20px;
+}
+/* progress bar code end here */
+/* my skills section css end */
+
+/* experience & education section start */
+#my-education{
+    background-color: #616566;
+    height: auto;
+    border-top: 1px solid #87898a;
+}
+#my-education h1{
+    font-weight: 900;
+    color: orange;
+    text-shadow: 1px 2px 3px black;
+}
+/* experience & education section end */
+
+/* my services section start */
+#my-service{
+    background-color: #616566;
+    height: auto;
+    border-top: 1px solid orange;
+}
+#my-service h1{
+    font-weight: 900;
+    color: orange;
+    text-shadow: 1px 2px 3px black;
+    margin-bottom: 20px;
+}
+.card-custom{
+    background: none;
+    border-color: #fff;
+    height: 280px;
+}
+.card-icon{
+    font-size: 40px;
+    color: orange;
+}
+#btn-quote{
+    text-decoration: none;
+    background-color: #616566;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 0px 8px 3px orange;
+    font-weight: 600;
+    transition: 0.2s ease-out;
+}
+#btn-quote:hover{
+    background-color: #7c8081;
+}
+#btn-quote a{
+    text-decoration: none;
+    color: orange;
+}
+/* my services section end */
+
+/* client reviews section css start */
+#client-reviews{
+    background-color: #616566;
+    height: auto;
+    border-top: 1px solid orange;
+    padding: 30px 0px;
+}
+#client-reviews h1{
+    font-weight: 900;
+    color: orange;
+    text-shadow: 1px 2px 3px black;
+    margin-bottom: 20px;
+}
+.card-img img{
+    height: 80px !important;
+    width: 80px !important;
+}
+.star-symbol{
+    color: orange;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.client-reviews-card{
+    border: 1px solid white;
+    padding: 10px;
+    width: 100%;
+    height: 340px;
+    background-color: #616566;
+}
+/* owl carousel start */
+  .carousel{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+  }
+  .carousel .card{
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  }
+  .owl-dots{
+    text-align: center;
+    margin-top: 0px;
+  }
+  .owl-dot{
+    height: 15px;
+    width: 45px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid orange!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .owl-dot.active,
+  .owl-dot:hover{
+    background: orange!important;
+  }
+/* owl carousel end */
+/* client reviews section css end */
+
+/* my blog section css start */
+#my-blog{
+    background-color: #616566;
+    height: auto;
+    border-top: 1px solid orange;
+}
+#my-blog h1{
+    font-weight: 900;
+    color: orange;
+    text-shadow: 1px 2px 3px black;
+    margin-bottom: 20px;
+}
+.blog-card{
+    background: none;
+    border-color: #fff;
+    height: auto;
+    overflow: hidden;
+}
+.blog-card img:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+#btn-blog{
+    text-decoration: none;
+    background-color: #616566;
+    width: 150px;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 0px 8px 3px orange;
+    font-weight: 600;
+    transition: 0.2s ease-out;
+}
+#btn-blog:hover{
+    background-color: #7c8081;
+}
+#btn-blog a{
+    text-decoration: none;
+    color: orange;
+}
+/* my blog section css end */
+
+/* portfolio section start css start */
+#myPortfolio{
+    background-color: #616566;
+    height: auto;
+    border-top: 1px solid orange;
+}
+#myPortfolio h1{
+    font-weight: 900;
+    color: orange;
+    text-shadow: 1px 2px 3px black;
+}
+.portTabCard{
+    background-color:#616566;
+    color:#fff;
+    border:1px solid white;
+}
+.portTabCard ul{
+    border-bottom:1px solid orange;
+}
+.nav-tabs{
+    background-color:#616566;
+    padding:10px 10px;
+    border:none;
+}
+.nav-tabs > .nav-item >.nav-link{
+    color:#fff;
+    margin-right:5px;
+    border-radius:5px;
+    font-size:14px;
+    border:none;
+    padding:11px 23px;
+    line-height:1.5;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color:rgba(255,255,255,0.2);
+    color:#fff;
+} 
+.nav-tabs>.nav-item>.nav-link:hover{
+    background-color:rgba(255,255,255,0.2);
+}
+.tab-pane{
+    padding:20px;
+}
+.tab-pane h4{
+    font-size:25px;
+    text-transform:capitalize;
+}
+.cardPortfolio1{
+    overflow: hidden;
+}
+.cardPortfolio1 img {
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+}
+.cardPortfolio1 img:hover {
+    transform: scale(1.5); 
+}
+.cardPortfolio1 {
+    position: relative;
+    width: 100%;
+} 
+.portCardImage {
+    display: block;
+    width: 100%;
+    height: auto;
+} 
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: orange;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 0.7;
+} 
+.cardPortfolio1:hover .overlay {
+    width: 100%;
+}
+.text {
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+.shadow{
+    box-shadow: 0px 2px 8px 2px black !important;
+}
+/* portfolio section start css end */
+
+/* contact section start css start */
+#myContact{
+    background-color: #616566;
+    height: auto;
+    border-top: 1px solid orange;
+}
+#myContact h1{
+    font-weight: 900;
+    color: orange;
+    text-shadow: 1px 2px 3px black;
+}
+.contactLeft{
+    border-right: 1px solid white;
+}
+.socialMedia{
+    text-align: center;
+    margin-top: 20px;
+}
+.socialMedia i{
+    font-size: 1.3rem;
+    margin: 0px 10px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s ease-in;
+}
+.socialMedia i:hover{
+    transform: scale(1.3);
+}
+.faceSi{
+    background-color: navy;
+    color: #fff;
+    border-radius: 50%;
+}
+.twitSi{
+    background-color: rgb(5, 152, 172);
+    color: #fff;
+    border-radius: 50%;
+}
+.ytSi{
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+}
+.linkSi{
+    background-color: rgb(29, 128, 190);
+    color: #fff;
+    border-radius: 50%;
+}
+#formSubmitBtn{
+    color: white;
+    background-color: #616566;
+    width: 200px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 0px 8px 3px orange;
+    font-weight: 700;
+}
+/* contact section start css end */
+
+/* footer section css start */
+#myFooter{
+    background-color: rgb(68, 67, 67);
+    height: auto;
+    border-top: 1px solid orange;
+}
+#myFooter a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+#myFooter a:hover{
+    color: orange;
+}
+/* footer section css end */
